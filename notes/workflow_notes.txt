@@ -1,0 +1,34 @@
+Brain MRI Region Annotation and 3D Visualization Workflow Notes
+
+Dataset:
+MRBrainTumor2 sample dataset from 3D Slicer.
+
+Objective:
+The objective of this project was to annotate a visible region of interest from a brain MRI scan and generate a final 3D model suitable for portfolio presentation.
+
+Workflow Summary:
+1. Loaded the MRBrainTumor2 sample dataset in 3D Slicer.
+2. Reviewed the original MRI scan in axial, sagittal, coronal, and 3D views.
+3. Created a region annotation based on a visible area of interest.
+4. Reviewed the annotation across multiple anatomical planes.
+5. Removed small disconnected regions from the segmentation.
+6. Applied smoothing to improve the final segmentation surface.
+7. Generated a 3D model from the cleaned segmentation.
+8. Exported the final model in STL, OBJ, and PLY formats.
+9. Saved screenshots to document each major stage of the workflow.
+
+Screenshot List:
+1. 01_original_brain_mri.png
+2. 02_region_annotation_selection.png
+3. 03_cleaned_mri_segmentation.png
+4. 04_final_3d_region_model.png
+
+Exported Files:
+- BrainMRI_Final_Region_Model.stl
+- BrainMRI_Final_Region_Model.obj
+- BrainMRI_Final_Region_Model.ply
+- BrainMRI_Cleaned_Region_Segmentation.seg.nrrd
+- BrainMRI_Region_Annotation_Project.mrml
+
+Portfolio Purpose:
+This project demonstrates MRI review, medical image annotation, segmentation cleanup, 3D visualization, and AI training data preparation using 3D Slicer.

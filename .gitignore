@@ -1,0 +1,26 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.log
+
+# Raw medical image files
+*.dcm
+*.nii
+*.nii.gz
+*.mha
+*.mhd
+*.nhdr
+
+# Large intermediate Slicer data files
+*.h5
+*.hdf5
+
+# Keep exported portfolio files allowed
+# The following file types are intentionally allowed:
+# .png, .stl, .obj, .ply, .nrrd, .mrml, .txt
